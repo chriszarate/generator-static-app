@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title><%= appName %></title>
+
+    <!-- Bundled CSS -->
+    <link rel="stylesheet" href="/build/app.min.css">
+
+    <!--[if IE 7]>
+      <link rel="stylesheet" href="/assets/font/select-typicons-ie7.css">
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXXXXXX');ga('send','pageview');
+    </script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1 class="banner"><a href="/"><%= appName %></a></h1>
+    </header>
+
+    <nav>
+      <ul class="sections">
+        <li><a href="/section-1/">Section 1</a></li>
+        <li><a href="/section-2/">Section 2</a></li>
+        <li><a href="/section-3/">Section 3</a></li>
+      </ul>
+    </nav>
+
+    <div class="main">
+    </div>
+
+    <!-- Bundled JavaScript -->
+    <script src="/build/app.min.js"></script>
+
+  </body>
+
+</html>

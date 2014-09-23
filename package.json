@@ -1,0 +1,20 @@
+{
+  "name": "generator-static-app",
+  "version": "0.1.0",
+  "description": "A simple static app generator with Grunt and Browersify.",
+  "author": {
+    "name": "Chris Zarate",
+    "url": "http://chris.zarate.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chriszarate/generator-static-app"
+  },
+  "license": "MIT",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.17.3"
+  }
+}

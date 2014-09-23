@@ -1,0 +1,36 @@
+/* Body */
+
+body {
+
+  margin: 0;
+  padding: 3em 4em;
+
+  color: #000;
+  background-color: #fff;
+
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+
+  line-height: 1.4em;
+
+}
+
+
+/* Links */
+
+a {
+  color: #457;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Headers */
+
+h1, h2, h3, h4 {
+  margin: 2em 0 1em 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
